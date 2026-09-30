@@ -1,0 +1,164 @@
+/* =====================================================
+   GENERAL
+===================================================== */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    background-color: #c98d70;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/* =====================================================
+   ALL CARDS
+===================================================== */
+
+.cards-container {
+    display: flex;
+
+    gap: 36px;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    padding: 40px;
+}
+
+
+.card {
+    width: 184px;
+    height: 306px;
+
+    background-color: white;
+
+    border-radius: 9px;
+
+    overflow: hidden;
+
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.25);
+
+    text-align: center;
+}
+
+
+/* =====================================================
+   CARD 1
+===================================================== */
+
+/* Card 1 bottom color */
+
+.card:nth-child(1) .post-info {
+    background-color: #ff0066;
+}
+
+/* Card 1 date color */
+
+.card:nth-child(1) h4 {
+    color: #e91e63;
+}
+
+.card > img {
+    width: 100%;
+
+    height: 130px;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+.card-content {
+    height: 127px;
+
+    padding: 10px 12px;
+
+    background-color: white;
+}
+
+.card-content h4 {
+    font-size: 9px;
+
+    margin-bottom: 3px;
+
+    font-weight: bold;
+}
+
+
+.card-content h1 {
+    font-size: 16px;
+
+    margin-bottom: 12px;
+
+    color: #111;
+}
+
+
+.card-content p {
+    font-size: 8.5px;
+
+    line-height: 12px;
+
+    color: #777;
+}
+
+.post-info {
+    height: 49px;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+}
+
+.post-info div {
+    width: 33.33%;
+
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.post-info strong {
+    font-size: 12px;
+
+    line-height: 14px;
+}
+
+.post-info span {
+    font-family: Arial, sans-serif;
+
+    font-size: 6px;
+
+    margin-top: 2px;
+
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+
+    transition: 0.3s ease;
+}
