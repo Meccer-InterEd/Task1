@@ -46,13 +46,10 @@ body {
 
     text-align: center;
 }
-/* card one */
 
 .card:nth-child(1) .post-info {
     background-color: #ff0066;
 }
-
-/* Card 1 date color */
 
 .card:nth-child(1) h4 {
     color: #e91e63;
