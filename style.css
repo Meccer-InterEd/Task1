@@ -116,3 +116,11 @@ body {
 .card:nth-child(2) .post-info {
     background-color: #ff4b00;
 }
+.card:nth-child(3) .post-info {
+    background-color: #00b83f;
+}
+
+
+.card:nth-child(3) h4 {
+    color: #00b83f;
+}
