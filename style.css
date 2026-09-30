@@ -8,11 +8,12 @@ body {
     min-height: 100vh;
 
     background-color: #c98d70;
+    
 
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     font-family: Georgia, "Times New Roman", serif;
 }
 
@@ -35,7 +36,7 @@ body {
 .card {
     width: 184px;
     height: 306px;
-
+    margin: 0 40px;
     background-color: white;
 
     border-radius: 9px;
