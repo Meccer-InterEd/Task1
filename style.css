@@ -59,6 +59,11 @@ body {
     background-color: white;
 }
 
+.card-content h4 {
+    font-size: 9px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
 
 
 .card-content h1 {
@@ -115,3 +120,7 @@ body {
     background-color: #00b83f;
 }
 
+
+.card:nth-child(3) h4 {
+    color: #00b83f;
+}
