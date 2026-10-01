@@ -7,7 +7,9 @@
 body {
     min-height: 100vh;
     background-color: #c98d70;
-    
+    background-image: url(https://www.bing.com/th/id/OIP.ZmwMYm_hzUXB82knPQuN5gHaEo?w=228&h=164&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=ImgAns&rm=2);
+    background-size: cover;
+    background-position: center;
 
     display: flex;
     justify-content: center;
